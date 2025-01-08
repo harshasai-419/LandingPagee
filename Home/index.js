@@ -179,13 +179,13 @@ class Home extends Component{
                 <div class="contact-us">
                     <h2>Contact Us</h2>
                     <div className='contact-card'>
-                        <input placeholder="FIRST NAME*" className='input-ele'/>
+                        <input placeholder="FIRST NAME*" type="text" className='input-ele'/>
                         <div className='contact-flex-con'>
-                            <input placeholder='Mail Address' className='input-ele'/>
-                            <input placeholder='Phone Number' className='input-ele'/>
+                            <input placeholder='Mail Address' type="email" className='input-ele'/>
+                            <input placeholder='Phone Number' type="phone" className='input-ele'/>
                         </div>
                         <textarea placeholder="Enter Message" className='text-area-con'></textarea>
-                        <button className='contact-submitbutton'>Submit Request</button>
+                        <button className='contact-submitbutton' type="button">Submit Request</button>
                     </div>
                 </div>
 
