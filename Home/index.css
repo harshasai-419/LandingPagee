@@ -1,0 +1,556 @@
+.web-top-con{
+    color:#ffffff;
+    display:flex;
+}
+.web-para{
+    margin-right:9px;
+    margin-left:7px;
+}
+.top-icons-con{
+    display: flex;
+    padding: 5px;
+}
+.indian-flag{
+    height:20px;
+    width:20px;
+}
+.web-top-right-con{
+    display:flex;
+    margin:10px;
+}
+.web-top{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(121, 41, 121);
+    height:100%;
+    width:100%;
+    color:#ffffff;
+}
+.right-icons{
+    margin:4px;
+}
+.second-part{
+    background-color: #9b9696;
+    height:50vh;
+}
+.nav-card{
+    background-color: #ffffff;
+    height:8vh;
+    width:75%;
+    display:flex;
+    justify-content: space-between;
+}
+.build-image{
+    height:50px;
+    width:60px;
+}
+.nav-right-item{
+    display:flex;
+}
+.nav-item{
+    margin:7px;
+    font-weight: bold;
+}
+.nav-card-con{
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+}
+.second-para{
+    color:rgb(243, 173, 42);
+    font-weight:bold;
+}
+.second-head{
+    color:#2f2020;
+}
+.second-button{
+    border-width:0px;
+    background-color: #2f2020;
+    padding:8px;
+    color:#ffffff;
+}
+.builder-image{
+    height:35vh;
+    width:20%;
+}
+.second-bottom-con{
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+} 
+  
+  .about-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+  }
+  
+  .about-us-image{
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height:50Vh;
+    width:30%;
+    margin:16px;
+  }
+  .about-image{
+    width:100%;
+    height:100%;
+  }
+  
+  .about-us-content {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .about-us-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0d1738;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  .about-us-content .btn {
+    padding: 10px 20px;
+    background-color: #0d1738;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+
+  }
+  
+  .about-us-content .btn:hover {
+    background-color: #ff9800;
+  }
+  
+  .services-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0d1738;
+    text-align:center;
+  }
+  
+  .services-container {
+    display: flex;
+    padding: 0 20px;
+    flex-wrap:wrap;
+    justify-content: center;;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width:25%;
+    margin:10px;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card.highlighted {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .service-card .icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .service-card a {
+    color: #0d1738;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .service-card.highlighted a {
+    color: #fff;
+  }
+  
+  .service-card a:hover {
+    text-decoration: underline;
+  }
+  .recent-project-image{
+    height:100%;
+    width:100%;
+  }
+  .recent-project-item{
+    height:40vh;
+    width:30%;
+    margin:10px;
+  }
+  .recent-project-con{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10px;
+  }
+  .recent-head{
+    font-size:20px;
+  }
+  
+  .header-image {
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.70uaoxi4RFdD-g9Wr4Sl0QHaFj&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin-bottom: 60px; /* Add space between sections */
+}
+
+.how-we-work {
+    padding: 20px;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.how-we-work h2, .contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+ .feedback {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.step {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+  font-size: 2rem;
+  color: #ffa500;
+}
+
+.highlighted {
+  border: 2px solid #ffa500;
+}
+
+
+.recent-con{
+  margin:10px;
+}
+.work-head{
+  color:#1a1616;
+  text-align:center;
+}
+
+.contact-card{
+  height:100%;
+  width:40%;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+  padding:5px;
+  margin:10px;  
+}
+.input-ele{
+  width:95%;
+  border-radius:3px;
+  margin:10px; 
+  padding:7px; 
+}
+.text-area-con{
+  height:20%;
+  width:95%;
+  margin:10px; 
+  padding:7px; 
+}
+.contact-flex-con{
+  display: flex;
+}
+.contact-submitbutton{
+  background-color: #ff9800;
+  color:#ffffff;
+  border-width:0px;
+  border-radius:4px;
+  padding:7px;
+  margin:8px;
+}
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.last-con{
+  background-color:rgb(29, 13, 35);
+  height:50vh;
+  width:100%;
+  color:#ffffff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.united-image{
+  height:70px;
+  width:90px;
+}
+.icons-con{
+  display: flex;
+}
+.icons-para{
+  margin:10px;
+}
+.last-head{
+  font-size:27px;
+  margin:10px;
+}
+
+.clients-feedback {
+  padding: 40px 0;
+  background-color: #f5f5f5; /* Add background color for separation */
+  margin-top: 60px; /* Add space above section */
+}
+
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.feedback {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Existing CSS remains the same */
+
+/* Media Queries for Responsive Design */
+.last-para{
+  margin:5px;
+  padding: 5px;;
+}
+@media screen and (max-width: 768px) {
+  /* Top Section */
+  .web-top {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+  }
+
+  .web-top-con {
+      flex-direction: column;
+  }
+
+  .web-top-right-con {
+      justify-content: center;
+  }
+
+  /* Navigation */
+  .nav-card {
+      width: 95%;
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+  }
+
+  .nav-right-item {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-item {
+      margin: 5px 0;
+  }
+
+  /* Second Part */
+  .second-part {
+      height: auto;
+      padding: 20px;
+  }
+
+  .second-bottom-con {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .builder-image {
+      width: 80%;
+      margin-top: 20px;
+  }
+
+  /* About Us Section */
+  .about-us-container {
+      flex-direction: column;
+  }
+
+  .about-us-image {
+      width: 90%;
+      height: auto;
+  }
+
+  .about-us-content {
+      padding: 20px;
+      text-align: center;
+  }
+
+  /* Services Section */
+  .service-card {
+      width: 90%;
+      margin: 10px auto;
+  }
+
+  /* Recent Projects */
+  .recent-project-item {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+  }
+
+  .recent-project-con {
+      flex-direction: column;
+  }
+
+  /* How We Work Section */
+  ..header-image {
+    margin-bottom: 40px;
+}
+
+.steps, .feedbacks {
+    flex-direction: column;
+    align-items: center;
+}
+
+.step, .feedback {
+    width: 90%;
+    max-width: 320px;
+}
+
+.clients-feedback {
+    margin-top: 40px;
+}
+
+  /* Contact Form */
+  .contact-card {
+      width: 90%;
+  }
+
+  .contact-flex-con {
+      flex-direction: column;
+  }
+
+  /* Footer */
+  .last-con {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      text-align: center;
+  }
+  .icons-con{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Additional breakpoint for smaller devices */
+@media screen and (max-width: 480px) {
+  .section-title {
+      font-size: 1.5rem;
+  }
+
+  .second-head {
+      font-size: 1.5rem;
+  }
+
+  .about-us-content h1 {
+      font-size: 1.5rem;
+  }
+
+  .service-card {
+      width: 95%;
+  }
+
+  .contact-card {
+      width: 95%;
+  }
+
+  .input-ele, 
+  .text-area-con {
+      width: 90%;
+  }
+  .icons-con{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Tablet-specific adjustments */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .service-card {
+      width: 45%;
+  }
+
+  .recent-project-item {
+      width: 45%;
+  }
+
+  .about-us-image {
+      width: 45%;
+  }
+
+  .contact-card {
+      width: 60%;
+  }
+}
